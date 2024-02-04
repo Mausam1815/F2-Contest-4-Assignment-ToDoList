@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333333 !important;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Header Section */
+header {
+    width: 100%;
+    background-color: black;
+    height: 200px;
+}
+/* Main Section */
+main {
+    margin-top: -25px;
+    width: 80vw;
+}
+#task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#task-form-d1, #task-form-d2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#task-input, #due-date-input, #priority, #search-input, #filter {
+    padding: 10px;
+    color: #808080;
+    background-color: #262626;
+    border: none;
+    border-radius: 8px;
+    flex-grow: 1;
+    height: 44px;
+}
+label {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#task-container>div {
+    border-bottom: 1px solid gray;
+}
+#todo,#started,#completed{
+    width: 80%;
+
+}
+#todo-heading,
+#started-heading,
+#completed-heading  {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    color: #4EA8DE;
+}
+.heading-blue {
+    color: #4EA8DE;
+}
+.heading-purple {
+    color: #8284FA;
+}
+span {
+    color: white;
+    background-color: #272626;
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+#empty-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+}
+/* Task Added section */
+.task-item {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #414141;
+    color: white;
+    padding: 10px;
+}
+.task-item>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons button {
+    padding: 5px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    margin-inline: 5px;
+}
+.drop-text{
+    text-align: center;
+    padding: 15px;
+    color: gray;
+}
